@@ -11,6 +11,7 @@
 (depends-on "f")
 (depends-on "flycheck")
 (depends-on "flycheck-cask")
+(depends-on "go-autocomplete")
 (depends-on "go-mode")
 (depends-on "htmlize")
 (depends-on "idle-highlight-mode")
