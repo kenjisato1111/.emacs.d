@@ -24,5 +24,11 @@
 ;; set color theme
 (load-theme 'tsdh-dark)
 
+;; resize window
+    (global-set-key (kbd "S-C-<left>") 'shrink-window-horizontally)
+    (global-set-key (kbd "S-C-<right>") 'enlarge-window-horizontally)
+    (global-set-key (kbd "S-C-<down>") 'shrink-window)
+    (global-set-key (kbd "S-C-<up>") 'enlarge-window)
+
 (load "golang.el")
 
