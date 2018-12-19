@@ -21,5 +21,8 @@
 		"~/.emacs.d/conf"
 		) load-path))
 
+;; set color theme
+(load-theme 'tsdh-dark)
+
 (load "golang.el")
 
